@@ -752,7 +752,7 @@ def lineBot(op):
                 elif text.lower() == 'ข้อมูล':
                     try:
                         arr = []
-                        owner = "u0035a5a6c5ae9d30c9a0992ecbc39395"
+                        owner = "u5ea48c968631994216c4a251a0bba12b"
                         creator = line.getContact(owner)
                         contact = line.getContact(lineMID)
                         grouplist = line.getGroupIdsJoined()
@@ -804,12 +804,12 @@ def lineBot(op):
                         line.sendMessage(to,"ยกเลิกค้างเชิญแล้ว (｡◕‿◕｡) " )           
 #===========
                 elif "สปีด" == msg.text.lower():
-                    line.sendMessage(to,"「ความเร็ว...」\n███▒39%\n██████▒69%\n██████████▒99%\n0.0000000000000000 second")
-                    line.sendMessage(to,"0.0000000000000000 second")  
+                    line.sendMessage(to,"「ความเร็ว...")
+                    line.sendMessage(to,"[ 0.0007937867641448975 ต่อวินาที ]")  
                     line.sendMessage(to,"(｡◕‿◕｡)")
 #===========
                 elif "เทส" == msg.text.lower():
-                    line.sendMessage(to,"௮๊পຟ้ণ  💕 ച๊ণໂо้\n(｡◕‿◕｡)")
+                    line.sendMessage(to,"௮๊পຟ้ণ  💕 ച๊ণໂо้\nครอบครัวสุขสัน")
                     line.sendMessage(to,"LOADING:▒...0%")  
                     line.sendMessage(to,"📙... 10.0%")       
                     line.sendMessage(to,"📙📙... 20.0%")
@@ -825,8 +825,8 @@ def lineBot(op):
 #==============================================================================#
                 elif "ป๊า" == msg.text.lower():
                     msg.contentType = 13
-                    line.sendMessage(to, "")
-                    line.sendContact(to, "u871280833ae11d77ae4971edd4b7927b")
+                    line.sendMessage(to, "u871280833ae11d77ae4971edd4b7927b")
+                    line.sendContact(to, "")
                     line.sendContact(to, "")
                     line.sendContact(to, "")
                     line.sendContact(to, "")
@@ -835,9 +835,9 @@ def lineBot(op):
                 elif "ม๊า" == msg.text.lower():
                     line.sendContact(to,"u0d0dbc05e1d8c91995fc471c4d0e6636")             
 #==============================================================================#
-                elif "ผส" == msg.text.lower():
-                    line.sendMessage(to,"คนนี้ทำ\n👇👇👇")
-                    line.sendContact(to, "u871280833ae11d77ae4971edd4b7927b")
+                elif "บอทน้อย" == msg.text.lower():
+                    line.sendMessage(to,"👇👇👇")
+                    line.sendContact(to, "u3a529ee55397fbbaf9b334382e375e9b")
                 elif "ไวรัส" == msg.text.lower():
                     line.sendMessage(to, "หยุด ขอให้อยู่ในความสงบ")
                     line.sendContact(to, "ud95860b8e3a6b3d2454cde75d9a5e3ec',")
@@ -846,7 +846,7 @@ def lineBot(op):
                     line.sendMessage(to, "ครอบครัวของ\n௮๊পຟ้ণ  💕 ച๊ণໂо้")
                     line.sendContact(to, "u871280833ae11d77ae4971edd4b7927b")
                     line.sendContact(to, "u0d0dbc05e1d8c91995fc471c4d0e6636")
-                    line.sendContact(to, "")
+                    line.sendContact(to, "u5ea48c968631994216c4a251a0bba12b")
                     line.sendContact(to, "ua2795498282113722d814ffdbff46db1")
                     line.sendContact(to, "u78bddb7c2a7965b57acc09a16eec875e")
                     line.sendContact(to, "u3a529ee55397fbbaf9b334382e375e9b")                        
