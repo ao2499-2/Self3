@@ -1295,7 +1295,7 @@ def lineBot(op):
                         mc = "╔══[ ลิสการเลียนแบบ ]"
                         for mi_d in settings["mimic"]["target"]:
                             mc += "\n╠ "+line.getContact(mi_d).displayName
-                        line.sendMessage(msg.to,mc + "\n╚══[ VҜ ŚẾL₣ВΌŦ ]")
+                        line.sendMessage(msg.to,mc + "\n╚══[ ௮๊পຟ้ণ  💕 ച๊ণໂо้ ]")
                     
                 elif "nutmic" in msg.text.lower():
                     sep = text.split(" ")
@@ -1470,9 +1470,9 @@ def lineBot(op):
                     spl = msg.text.split("รับแก้ไฟล์+เพิ่มไฟล์+แก้ภาษา\n💝ราคาดูที่หน้างาน💝\n👉มีบริการให้เช่าบอทSAMURAI\nราคา300บาทต่อเดือน💖\n#เพิ่มคิกเกอร์ตัวละ100👌\n🎀สนใจรีบทัก..บอทpython3ฟังชั่นล้นหลาม🎁กำลังรอให้คุณเป็นเจ้าของ\n(ผมจะอยู่ที่ห้องนี้แค่15นาทีนะจ๊ะ)\nselfbot by:\n╔══════════════┓\n╠™❍✯͜͡RED™SAMURAI✯͜͡❂➣ \n╚══════════════┛")
                     if spl[len(spl)-1] == "เขย่า":
                         line.sendText(msg.to,"กดที่นี่เพื่อเขย่าข้อความด้านบน:\nline://nv/chatMsg?chatId="+msg.to+"&messageId="+msg.id)
-                elif "รัน @" in msg.text:
+                elif "รัน " in msg.text:
                     print ("[Command]covergroup")
-                    _name = msg.text.replace("รัน @","")
+                    _name = msg.text.replace("รัน ","")
                     _nametarget = _name.rstrip('  ')
                     gs = line.getGroup(msg.to)
                     targets = []
@@ -1635,7 +1635,7 @@ def lineBot(op):
                         key = msg.text[-33:]
                         line.findAndAddContactsByMid(key)                   
                         contact = cl.getContact(key)
-                        line.createGroup("📐॥᠒๊৩அัচદஅ📚",[key])
+                        line.createGroup("௮๊পຟ้ণ  💕 ച๊ণໂо้",[key])
                         line.sendText(msg,to,"❋ทำการรัน สำเร็จ❋")
                 elif "ไม่รับเชิญ " in msg.text.lower():
                     spl = re.split("ไม่รับเชิญ ",msg.text,flags=re.IGNORECASE)
