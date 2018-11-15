@@ -823,16 +823,15 @@ def lineBot(op):
                     line.sendMessage(to,"📙📙📙📙📙📙📙📙📙📙..100.0%")                    
                     line.sendMessage(to,"🗑🗑🗑\nบอทยังทำงานคับท่าน😁")       
 #==============================================================================#
-                elif "ป๊า" == msg.text.lower():
+                elif "ตา" == msg.text.lower():
                     msg.contentType = 13
-                    line.sendMessage(to, "u871280833ae11d77ae4971edd4b7927b")
-                    line.sendContact(to, "")
+                    line.sendContact(to, "u871280833ae11d77ae4971edd4b7927b")
                     line.sendContact(to, "")
                     line.sendContact(to, "")
                     line.sendContact(to, "")
                     line.sendMessage(to, "")
 #===========
-                elif "ม๊า" == msg.text.lower():
+                elif "ยาย" == msg.text.lower():
                     line.sendContact(to,"u0d0dbc05e1d8c91995fc471c4d0e6636")             
 #==============================================================================#
                 elif "บอทน้อย" == msg.text.lower():
@@ -840,7 +839,7 @@ def lineBot(op):
                     line.sendContact(to, "u3a529ee55397fbbaf9b334382e375e9b")
                 elif "ไวรัส" == msg.text.lower():
                     line.sendMessage(to, "หยุด ขอให้อยู่ในความสงบ")
-                    line.sendContact(to, "ud95860b8e3a6b3d2454cde75d9a5e3ec',")
+                    line.sendContact(to, "ud95860b8e3a6b3d2454cde75d9a5e3ec")
                 elif "ครอบครัว" == msg.text.lower():
                     msg.contentType = 13
                     line.sendMessage(to, "ครอบครัวของ\n௮๊পຟ้ণ  💕 ച๊ণໂо้")
