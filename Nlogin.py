@@ -707,7 +707,7 @@ def lineBot(op):
                         p = Pool(20)
                         p.map(Rapid1Say,rmtosay)
                         p.close()
-                if text.lower() == ''เมนู:
+                if text.lower() == 'เมนู':
                     myHelp = myhelp()
                     line.sendMessage(to, str(myHelp))
                 elif text.lower() == 'คำสั่ง1':
